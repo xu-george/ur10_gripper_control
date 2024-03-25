@@ -1,0 +1,8 @@
+# a package to provide interface to control real robot with moveit interface 
+
+1. roslaunch ur10_gripper_control ur10_control.launch 
+
+2. roslaunch ur10_gripper_control gripper_control.launch
+
+# control interface: provide interface: joint control, gripper_control, ee_control, trajectory control. 
+

@@ -1,0 +1,6 @@
+<launch>
+    <!-- Include launch files from robotiq_2f_urcap -->
+    <include file="$(find robotiq_2f_urcap)/launch/robotiq_2f_bringup.launch">
+        <arg name="ur_address" value="192.168.147.169"/>
+    </include>
+</launch>
