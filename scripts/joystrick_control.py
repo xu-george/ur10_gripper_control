@@ -9,7 +9,7 @@ class JoyControl():
     """
     A ros node to receive the joystick data and control the robot
     """
-    def __init__(self, ip="192.168.147.169", min_workspace=[0.5, 0, 0.3], max_workspace=[0.8, 0.4, 0.8]):
+    def __init__(self, ip="192.168.147.169", min_workspace=[0.5, -0.4, 0.2], max_workspace=[0.8, 0.4, 0.8]):
 
         rospy.init_node('joy_control', anonymous=True)
         self.controller = ControlInterface(ip=ip)
