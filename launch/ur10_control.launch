@@ -2,7 +2,7 @@
     <!-- Include launch files from ur10e -->
     <include file="$(find ur_robot_driver)/launch/ur10e_bringup.launch">
         <arg name="robot_ip" value="192.168.147.169"/>
-        <arg name="kinematics_config" value="$(find ur10_control/etc/my_robot_calibration.yaml"/>
+         <arg name="kinematics_config" value="$(find ur_description)/etc/my_robot_calibration.yaml"/>
     </include>
 
     <!-- Include launch files from ur10e_moveit_config -->
